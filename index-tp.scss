@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  font-size: 0.16rem;
+}
+a{
+  text-decoration: none;
+  font-family: "微软雅黑","宋体",sans-serif;
+}
+body,html{
+  width:100%;
+  height: 100%;
+  background: url("img/bg.jpg");
+}
+header{
+  width: 100%;
+  height: 0.5rem;
+  background: #4BBBC6;
+  position: fixed;
+  top:0;
+  left: 0;
+  padding: 0 25%;
+  z-index: 99;
+
+}
+h3{
+  width: 25%;
+  line-height:0.5rem;
+  float: left;
+  font-size: 0.2rem;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight:normal;
+}
+.tupian{
+  padding-top: 0.5rem;
+  width:100%;
+  height: 100%;
+  ul{
+    width:100%;
+    height: 100%;
+    li{
+      width:calc(100% - 0.2rem);
+      height: calc(100% - 0.2rem);
+      //background: #BFE7E9;
+      margin: 0.1rem;
+      border: 0.02rem solid #fff;
+      box-sizing: border-box;
+
+    }
+  }
+}
+.tupian-tu{
+  width:100%;
+  height: 100%;
+  img{
+    width:100%;
+    height: 50%;
+  }
+  div{
+    padding: 0.1rem;
+    h4{
+      font-size: 0.18rem;
+      padding: 0.1rem 0;
+    }
+    p{
+      font-size: 0.16rem;
+      text-indent: 2em;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      line-height: 0.26rem;
+      padding: 0.05rem 0;
+    }
+    i{
+      float: right;
+      padding-right: 0.3rem;
+      font-size: 0.14rem;
+      line-height: 0.26rem;
+
+    }
+  }
+}
+//=======================================================
+/*#wrapper{
+  position: fixed;
+  top: 0.5rem;
+  left: 0;
+  z-index: 99;
+  width:100%;
+  height: 0.4rem;
+  //margin-top: 0.5rem;
+  border-bottom: 1px solid #999;
+  padding:0.06rem 0.1rem;
+  input{
+    width:80%;
+    height: 95%;
+    padding-left: 0.1rem;
+  }
+  img{
+    display: block;
+    float: right;
+    width:8%;
+    height:85%;
+    padding: 0.04rem 0.25rem 0 0;
+  }
+}*/
+.ttt{
+  margin-top:0.5rem;
+  width:calc(100% - 0.2rem);
+  padding: 0.1rem;
+  height: auto;
+  ul{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    li{
+      width:50%;
+      height:auto;
+      display: inline-flex;
+      justify-content:space-around;
+      padding-bottom: 0.1rem;
+      img{
+        width:95%;
+        height: 1.5rem;
+        border: 0.05rem solid #fff;
+        box-sizing: border-box;
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
