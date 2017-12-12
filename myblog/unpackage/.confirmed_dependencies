@@ -1,0 +1,61 @@
+{
+  "index.html": {
+    "resources": [
+      "img/search.png",
+      "css/index.css",
+      "css/base.css",
+      "img/xinwen1.png",
+      "img/xiala.png",
+      "img/xinwen3.png",
+      "img/lunbo.png",
+      "img/man.png",
+      "js/rem.js",
+      "img/xinwen2.png",
+      "tupianzhuye.html",
+      "zhuyesousuo.html"
+    ],
+    "refer": [
+      "tupianzhuye.html",
+      "zhuyesousuo.html"
+    ]
+  },
+  "tupianzhuye.html": {
+    "resources": [
+      "iconfont/iconfont.woff",
+      "img/xinwentupian_03.png",
+      "img/xinwentupian_06.png",
+      "iconfont/iconfont.css",
+      "css/tupianzhuye.css",
+      "index.html",
+      "zhuyesousuo.html"
+    ],
+    "refer": [
+      "index.html",
+      "zhuyesousuo.html"
+    ]
+  },
+  "zhuyesousuo.html": {
+    "resources": [
+      "css/zhuyesousuo.css",
+      "index.html",
+      "zhuyefenlei.html",
+      "iconfont/iconfont.woff",
+      "iconfont/iconfont.css"
+    ],
+    "refer": [
+      "index.html",
+      "zhuyefenlei.html"
+    ]
+  },
+  "zhuyefenlei.html": {
+    "resources": [
+      "img/tupianfenlei_10.png",
+      "img/tupianfenlei_13.png",
+      "img/tupianfenlei_05.png",
+      "img/tupianfenlei_03.png",
+      "img/tupianfenlei_14.png",
+      "img/tupianfenlei_09.png",
+      "css/zhuyefenlei.css"
+    ]
+  }
+}

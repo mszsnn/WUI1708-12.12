@@ -1,0 +1,74 @@
+@import url("base.css");
+
+
+
+body{
+	width: 100%;
+	height: 100%;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	height: 100rem;
+	background: rgba(0,0,0,0.5);
+	/*opacity: 0.5;*/
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 0.18rem;
+	padding-top: 0.32rem;
+		padding-right: 0.31rem;
+}
+.quxiao{
+	display: block;
+	width: 0.18rem;
+	height: 0.18rem;
+	/*background: #fff;*/
+	font-weight: bold;
+	color: #9a9aa2;
+}
+.youxiang{
+	display: block;
+	width: 100%;
+	height: 0.6rem;
+	border: none;
+	background: rgba(0,0,0,0);
+	border-bottom: 0.02rem solid #dedee0;
+	color: #dedee0;
+}
+
+.denglu{
+	
+	width: 100%;
+	height: 100%;
+	background: red;
+	position: relative;
+}
+.denglu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.denglu1{
+	width: 100%;
+	height: 0.66rem;
+	background: #a40347;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+.denglu2{
+	display: block;
+	width: 0.32rem;
+	height: 0.16rem;
+	/*background: #fff;*/
+	font-size: 0.16rem;
+	color: #fff;
+	line-height: 0.16rem;
+	z-index: 100;
+}

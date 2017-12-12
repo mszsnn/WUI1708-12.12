@@ -1,0 +1,173 @@
+@import url("base.css");
+
+
+body{
+	width: 100%;
+	height: auto;
+	background: #f2f1f6;
+}
+/*toubu*/
+.toubu{
+	width: 100%;
+	height: 0.5rem;
+	background: #f75b5c;
+	padding: 0 0.13rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #fdd6d7;
+}
+.zuobian{
+	display: block;
+	width: 0.6rem;
+	height: 0.16rem;
+	font-size: 0.14rem;
+	color: #FFFFFF;
+	line-height: 0.16rem;
+	/*background: green;*/
+	
+}
+.zhongjian{
+	display: block;
+	width: 0.5rem;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #FFFFFF;
+	line-height: 0.18rem;
+	text-align: center;
+	/*background: green;*/
+}
+.xiayibu{
+	display: block;
+	width: 0.45rem;
+	height: 0.16rem;
+	font-size: 0.14rem;
+	color: #FFFFFF;
+	line-height: 0.16rem;
+	/*background: green;*/
+}
+/*toubu2*/
+.toubu2{
+	width: 100%;
+	height: 0.32rem;
+	background: #FFFFFF;
+	display: flex;
+	
+}
+.toubu2 a{
+	
+	display: block;
+	width: 33.3%;
+	height: 100%;
+	/*background: green;*/
+	border-bottom: 0.01rem solid #f4635e;
+	color: #5e5e5e;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.toubu2 a:first-child{
+	border-bottom: none;
+	color: #dedede;
+}
+.toubu2 a:last-child{
+	border-bottom: none;
+	color: #dedede;
+}
+.toubu2 a:first-child:hover {
+	border-bottom: 0.01rem solid #f4635e;
+	color: #5e5e5e;
+}
+.toubu2 a:last-child:hover{
+	border-bottom: 0.01rem solid #f4635e;
+	color: #5e5e5e;
+}
+.toubu2 a:first-child:hover .toubu2 a:nth-child(2){
+	border-bottom: none;
+	color: #dedede;
+}
+/*   youxiang */
+.yx{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.23rem;
+	font-size: 0.16rem;
+	color: #000000;
+	padding-left: 0.12rem;
+	/*text-align: center;*/
+	line-height: 0.5rem;	
+	border-top: 0.01rem solid #e8e9eb;
+	border-bottom: 0.01rem solid #e8e9eb;
+}
+.yx div{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.yx div:first-child{
+	border-bottom: 0.01rem solid #e8e9eb;
+}
+.yx div input{
+	border: none;
+	width: 85%;
+	height: 100%;
+	background: #FFFFFF;
+}
+.yx div a{
+	display: block;
+	width:50%;
+	height: 100%;
+	background: #08dfbe;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #fff;
+}
+.yx div:last-child .qx{
+	display: block;
+	width: 10%;
+	height: 100%;
+	/*background: green;*/
+	font-size: 0.2rem;
+	text-align: center;
+	color: #c6c6c6;
+}
+.yx div:last-child p{
+	display: block;
+	width: 21%;
+}
+.yx div:last-child input{
+	width: 66%;
+}
+/*    */
+.baocunmima{
+	width: 100%;
+	height: 0.5rem;
+	/*background: green;*/
+	font-size: 0.12rem;
+	color: #949496;
+	display: flex;
+}
+.baocunmima div{
+	width: 40%;
+	height: 100%;
+	/*background: pink;*/
+	display: flex;
+	align-items: center;
+	padding-left: 0.13rem;
+}
+.baocunmima div:last-child{
+	width: 60%;
+	padding-left: 0.35rem;
+}
+.baocunmima div:last-child a{
+	text-decoration: underline;
+	color: #f76a63;
+}
+.baocunmima input{
+	display: block;
+}
+.baocunmima p{
+	display: block;
+}
