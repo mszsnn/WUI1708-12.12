@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height:4rem;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 4rem;
+  z-index: 999;
+}
+
+.tou {
+  display: flex;
+  justify-content: center;
+}
+
+.toubu {
+  font-size: 15px;
+  color: #333333;
+  margin: 0 4rem;
+}
+
+.aa {
+  color: #7a45e5;
+}
+section{
+  margin-top: 4rem;
+
+  h1{
+    text-align: center;
+    padding:1rem 1rem;
+    font-size: 2rem;
+  }
+  .form{
+
+    font-size: 1.8rem;
+  }
+  .time{
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}

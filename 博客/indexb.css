@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 0.5rem;
+  z-index: 999;
+}
+
+.tou {
+  display: flex;
+  justify-content: center;
+}
+
+.toubu {
+  font-size: 0.15rem;
+  color: #333333;
+  margin: 0 0.5rem;
+}
+
+.tu {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  padding: 0.1rem 0.1rem;
+}
+
+.bb {
+  margin-top: 0.5rem;
+}
+
+.zuo {
+  width: 100%;
+  height: 1.2rem;
+}
+
+.zuo .biao {
+  padding: 0.1rem 0.1rem;
+  font-size: 0.15rem;
+  color: #979797;
+}
