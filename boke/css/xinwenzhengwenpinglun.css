@@ -1,0 +1,139 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 15:08:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 09:51:14
+*/
+@import url('base.css');
+body{
+	height: 6rem;
+}
+.photo-box{
+	width: 100%;
+	height: 0.5rem;
+	background: #ffffff;
+	position: relative;
+	border-bottom: 0.01rem solid #efefef;
+}
+/* .photo-box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+} */
+.top-box{
+	width: 100%;
+	height: 0.15rem;
+	/* background: red; */
+	position: absolute;
+	top: 0.17rem;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	/* margin-top: 0.17rem; */
+}
+.left-box{
+	display: block;
+	width: 0.09rem;
+	height: 0.15rem;
+	/* background: yellow; */
+	margin-left: 0.14rem;
+}
+.left-box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.right-box{
+	display: block;
+	width: 0.26rem;
+	height: 0.05rem;
+	/* background: pink; */
+	align-self: center;
+	margin-right: 0.14rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dian1{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background: #9c9c9c;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 376004 */
+  src: url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.eot');
+  src: url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.svg#iconfont') format('svg');
+}
+.iconfont{
+     font-family: 'iconfont';
+     font-size: 0.15rem;
+     color: #9c9c9c;
+}
+.banner{
+	display: block;
+	width: 100%;
+	height: 1.5rem;
+	/* background: pink; */
+}
+.banner img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.bottom-box-pl{
+	width: 100%;
+	height: 4rem;
+	background: #f0eff5;
+	overflow: hidden;
+	position: relative;
+}
+.pl-box1{
+	width: 100%;
+	height: 0.14rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+	overflow: hidden;
+	display: flex;
+
+}
+.chahao{
+	display: block;
+	width: 0.14rem;
+	height: 0.14rem;
+	/* background: green; */
+	margin-left: 0.11rem;
+	/* margin-top: 0.04rem; */
+	font-size: 0.08rem;
+	color: #5b5b5d;
+	/* text-align: center; */
+	line-height: 0.14rem;
+}
+.fabbiaopl{
+	margin-left: 1.2rem;
+	font-size: 0.14rem;
+	color: #5b5b5b;
+}
+.bottom-box-pl input{
+	position: absolute;
+	top: 0.41rem;
+	left: 0.11rem;
+	width: 3.27rem;
+	height: 0.77rem;
+	border: none;
+}
+.bottom-box-pl input:focus{
+	outline: none;
+}
+textarea{
+	resize: none;
+	width: 100%;
+	height: 0.77rem;
+	border: none;
+}
+textarea:focus{
+	outline: none;
+}

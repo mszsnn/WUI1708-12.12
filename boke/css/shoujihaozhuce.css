@@ -1,0 +1,192 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-05 17:49:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 09:13:59
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.5rem;
+	background: #f75b5c;
+	display: flex;
+	justify-content: space-between;
+}
+.back{
+	/* display: block; */
+	width: .56rem;
+	height: 100%;
+	/* background: blue; */
+}
+.rigister{
+	display: block;
+	width: 0.38rem;
+	height: 100%;
+	/* background: green; */
+	font-size: 0.17rem;
+	color: #f7fffa;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.next-step{
+	display: block;
+	width: 0.57rem;
+	height: 100%;
+	/* background: yellow; */
+	font-size: 0.17rem;
+	color: #f7fffa;
+	line-height: 0.5rem;
+}
+.back-box{
+	display: block;
+	width: 0.42rem;
+	height: 0.14rem;
+	/* background: yellow; */
+	margin-top: 0.19rem;
+	margin-left:0.13rem;
+	display: flex;
+	justify-content: space-between; 
+}
+.back-logo{
+	width: 0.08rem;
+	height: 0.14rem;
+	/* background: red; */
+	display: block;
+}
+.back-character{
+	width: .27rem;
+	height: 0.14rem;
+	/* background: red; */
+	font-size: 0.12rem;
+	color: #fbfffd;
+}
+.back-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 注册栏开始 */
+.signup{
+	width: 100%;
+	height: 0.33rem;
+	/* background: yellow; */
+	display: flex;
+}
+.signup li{
+	/* display: block; */
+    width: 33.3333%;
+    height: 100%;
+    /* background: blue; */
+    font-size: 0.13rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.33rem;
+}
+.signup li a{
+	display: block;
+	width: 100%;
+    height: 100%;
+ /*    background: yellow; */
+    font-size: 0.13rem;
+    color: #e7e7e7;
+    text-align: center;
+    line-height: 0.33rem;
+}
+.signup li:nth-child(2){
+	border-bottom: 0.01rem solid #f96565;
+}
+.signup li:nth-child(2) a{
+	color: #5a5a5a;
+}
+.guodubox{
+	width: 100%;
+	height: 0.22rem;
+	background: #f2f1f6;
+	border-bottom: 0.01rem solid #ecedef;
+}
+.email{
+	width: 100%;
+	height: 0.48rem;
+	/* background: pink; */
+	/* border-bottom: 0.01rem solid #ecedef; */
+}
+.email-box{
+	width: 3.38rem;
+	height: 100%;
+	/* background: yellowgreen; */
+	margin-left: 0.12rem;
+	/* border-bottom: 0.01rem solid #ecedef; */
+	display: flex;
+}
+.email-character{
+	width: 0.53rem;
+	height: 100%;
+/* 	background: blue; */
+	font-size: 0.14rem;
+	color: #5a5a5a;
+	line-height: 0.48rem;
+}
+.get-code{
+	width: 1.2rem;
+	height: 100%;
+	background: #08dfbe;
+	margin-left: 0.15rem;
+	font-size: .12rem;
+	color: #fff;
+	line-height: 0.48rem;
+	text-align: center;
+	white-space: nowrap;
+}
+.email-box input{
+	border: none;
+	width: 1.53rem;
+}
+.email-box input:focus{
+	outline: none;
+}
+.agreement{
+	width: 100%;
+	height: 4.2rem;
+	background: #f2f1f6;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.save-password{
+	width: 0.8rem;
+	height: 0.12rem;
+	/* background: pink; */
+	margin-top: 0.1rem;
+	margin-left: 0.13rem;
+	position: relative;
+	display: flex;
+
+}
+.save-password input{
+	width: .12rem;
+	height: .12rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.save-passwordbox{
+	width: 0.6rem;
+	height: 0.12rem;
+	background: red;
+	margin-left: 0.19rem;
+	font-size: 0.12rem;
+	color: #7a7a7c;
+}
+.agreement p{
+	font-size: 0.12rem;
+	margin-top: 0.1rem;
+	margin-right: 0.13rem;
+	display: flex;
+}
+.david{
+	display: block;
+	font-size: 0.12rem;
+	color: #f4635e;
+	height: 0.14rem;
+	border-bottom: 0.01rem solid #f4635e;
+}

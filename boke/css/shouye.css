@@ -1,0 +1,87 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 18:08:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 20:19:50
+*/
+@import url('base.css');
+/* body{
+	height: auto;
+} */
+.shouye{
+	width: 100%;
+	height: 6rem;
+	background: yellow;
+	position: relative;
+}
+.shouye img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bink{
+	width: 100%;
+	height: 0.35rem;
+	/* background: pink; */
+	position: absolute;
+	top: 4.1rem;
+	left: 0;
+	font-size: 0.35rem;
+	color: #fefffd;
+	text-align: center;
+}
+.bink span{
+	color: #cc2f7c;
+}
+.box2{
+	width: 100%;
+	height: 0.21rem;
+	/* background: red; */
+	position: absolute;
+	top: 4.45rem;
+	left: 0;
+	font-size: 0.11rem;
+	color: #fcfefd;
+	text-align: center;
+	line-height: 0.23rem;
+}
+.zhucedenglu{
+	width: 100%;
+	height: 1.3rem;
+	/* background: green; */
+	position: absolute;
+	top: 4.9rem;
+	left: 0;
+}
+.zhucedenglu li:nth-child(1){
+    width: 100%;
+    height: 50%;
+    background: rgba(150, 22, 79, 0.9);
+}
+.zhucedenglu li:nth-child(2){
+    width: 100%;
+    height: 50%;
+    background: #070d1b;
+}
+.zhucedenglu li:nth-child(1) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #84073f;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+}
+.zhucedenglu li:nth-child(2) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #070d1b;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+}

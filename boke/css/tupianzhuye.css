@@ -1,0 +1,154 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 10:24:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 09:33:05
+*/
+@import url('base.css');
+body{
+	height: 5.8rem;
+}
+.photo-box{
+	width: 100%;
+	height: 6.00rem;
+	/* background: red; */
+	position: relative;
+}
+.photo-box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.top-box{
+	width: 100%;
+	height: 0.15rem;
+	/* background: red; */
+	position: absolute;
+	top: 0.17rem;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	/* margin-top: 0.17rem; */
+}
+.left-box{
+	display: block;
+	width: 0.09rem;
+	height: 0.15rem;
+	/* background: yellow; */
+	margin-left: 0.14rem;
+}
+.left-box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.right-box{
+	display: block;
+	width: 0.26rem;
+	height: 0.05rem;
+	/* background: pink; */
+	align-self: center;
+	margin-right: 0.14rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dian1{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background: #fff;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 376004 */
+  src: url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.eot');
+  src: url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1ww9i6rmw4nuq5mi.svg#iconfont') format('svg');
+}
+.iconfont{
+     font-family: 'iconfont';
+     font-size: 0.15rem;
+     color: #fff;
+}
+section{
+	width: 100%;
+	height: 2.25rem;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0;
+}
+.box-weni{
+	width: 3.35rem;
+	height: 2.12rem;
+	/* background: yellow; */
+	margin-top: 0.14rem;
+	margin-left: 0.14rem;
+}
+.youderen{
+	width: 3.34rem;
+	height: 0.53rem;
+	/* background: pink; */
+	font-size: 0.16rem;
+	color: #fff;
+}
+.border{
+	width: 2.19rem;
+	height: 0.01rem;
+	background: #62645f;
+	position: absolute;
+}
+.title{
+	width: 3.35rem;
+	height: 0.14rem;
+	background: black;
+	margin-top: 0.12rem;
+	font-size: 0.14rem;
+	color: #fff;
+	line-height: 0.14rem;
+}
+.content{
+	width: 3.35rem;
+	height: 0.73rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+.tubiao{
+	width: 3.35rem;
+	height: 0.33rem;
+	/* background: green; */
+	margin-top: 0.16rem;
+	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+}
+.tubiaobox{
+	/* display: block; */
+	width: 1.37rem;
+	height: 100%;
+	/* background: red; */
+	margin-right: 0.08rem;
+	display: flex;
+	justify-content: space-between;
+}
+.download{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: pink; */
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 376030 */
+  src: url('http://at.alicdn.com/t/font_t9zrnzn60fwdn29.eot');
+  src: url('http://at.alicdn.com/t/font_t9zrnzn60fwdn29.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_t9zrnzn60fwdn29.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_t9zrnzn60fwdn29.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_t9zrnzn60fwdn29.svg#iconfont') format('svg');
+}
+.youderen span{
+	color: #fffd02;
+}
