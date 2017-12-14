@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/swiper.min.css">
 
         <script src="js/rem.js"></script>
+        <script src="js/iscroll.js"></script>
 
     </head>
     <body>
@@ -31,49 +32,21 @@
     </header>
     <!-- 头部结束 -->
     <!-- 导航开始 -->
-    <div class="nav"></div>
-    <nav>
-    	<ul>
-    		<li>
-	    		<a href="">
-	    			头条
-	    		</a>
-    		</li>
-    		<li>
-	    		<a class="tiyu" href="">
-	    			体育	
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="">
-    				汽车
-    			</a>
-    		</li>
-    		<li>
-    			<a href="">
-    				购物
-    			</a>
-    		</li>
-    		<li>
-    			<a href="">
-    				旅游
-    			</a>
-    		</li>
-    		<li>
-    			<a href="">
-    				艺术
-    			</a>
-    		</li>
-    		<li>
-    			<a href="">
-    				科学
-    			</a>
-    		</li>
-    	</ul>
-    	<a href="" class="xiala">
-    		<img src="img/xiala.png" alt="">
-    	</a>
-    </nav>
+<div id="wrapper">
+    <div id="scroller">
+        <ul>
+            <li>HTMl</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>JQUERY</li>
+            <li>AJAX</li>
+            <li>PHP</li>
+            <li>VUE</li>
+            <li>NODE</li>
+            <li>BOOTSTRAP</li>
+        </ul>
+    </div>
+</div>
     <!-- 导航结束 -->
     <!-- 轮播图开始 -->
 	<div class="swiper-container">
@@ -193,5 +166,5 @@
         paginationClickable: true
     });
 
-
+var myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true });
 </script>
