@@ -35,15 +35,21 @@ header {
 }
 section{
   margin-top: 4rem;
+  padding:0 1rem;
 
   h1{
     text-align: center;
     padding:1rem 1rem;
     font-size: 2rem;
   }
-  .form{
-
+  h3{
+    font-size:1.8rem;
+  }
+  .me{
+    display: flex;
     font-size: 1.8rem;
+    justify-content: space-between;
+    padding:0.5rem 0;
   }
   .time{
     font-size: 1.8rem;

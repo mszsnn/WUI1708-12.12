@@ -36,6 +36,7 @@ header {
 
 section {
   margin-top: 4rem;
+  padding: 0 1rem;
 }
 
 section h1 {
@@ -44,8 +45,15 @@ section h1 {
   font-size: 2rem;
 }
 
-section .form {
+section h3 {
   font-size: 1.8rem;
+}
+
+section .me {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  padding: 0.5rem 0;
 }
 
 section .time {

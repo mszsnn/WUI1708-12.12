@@ -3,7 +3,7 @@ $(function () {
         {
             scrollX: true, scrollY: false
         })
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-container',{autoplay:true}, {
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
