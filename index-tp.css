@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.16rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: "微软雅黑","宋体",sans-serif;
+}
+
+body, html {
+  width: 100%;
+  height: 90%;
+  background: url("img/bg.jpg");
+}
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  background: #4BBBC6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 25%;
+  z-index: 99;
+}
+
+h3 {
+  width: 25%;
+  line-height: 0.5rem;
+  float: left;
+  font-size: 0.2rem;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+.tupian {
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.tupian ul {
+  width: 100%;
+  height: 100%;
+}
+
+.tupian ul li {
+  width: calc(100% - 0.2rem);
+  height: calc(100% - 0.2rem);
+  margin: 0.1rem;
+  border-radius: 0.1rem;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.3rem 0.3rem rgba(255, 255, 255, 0.5);
+}
+
+.tupian-tu {
+  width: 100%;
+  height: 100%;
+}
+
+.tupian-tu img {
+  width: 94.5%;
+  height: 40%;
+  padding: 3.5% 2.5%;
+}
+
+.tupian-tu div {
+  padding: 0.1rem;
+}
+
+.tupian-tu div h4 {
+  font-size: 0.18rem;
+  padding: 0.1rem 0;
+}
+
+.tupian-tu div p {
+  font-size: 0.16rem;
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 0.26rem;
+  padding: 0.05rem 0;
+  color: #d9f3ff;
+}
+
+.wz-rq {
+  width: 100%;
+  font-size: 0.14rem;
+  display: flex;
+  justify-content: space-around;
+  color: #761c19;
+  margin-top: 0.15rem;
+}
+
+.wz-rq i {
+  font-size: 0.14rem;
+  line-height: 0.16rem;
+  color: #333;
+  text-decoration: underline;
+}
+
+.wz-rq span {
+  font-size: 0.14rem;
+  color: goldenrod;
+  line-height: 0.16rem;
+  text-decoration: underline;
+}
+
+/*#wrapper{
+  position: fixed;
+  top: 0.5rem;
+  left: 0;
+  z-index: 99;
+  width:100%;
+  height: 0.4rem;
+  //margin-top: 0.5rem;
+  border-bottom: 1px solid #999;
+  padding:0.06rem 0.1rem;
+  input{
+    width:80%;
+    height: 95%;
+    padding-left: 0.1rem;
+  }
+  img{
+    display: block;
+    float: right;
+    width:8%;
+    height:85%;
+    padding: 0.04rem 0.25rem 0 0;
+  }
+}*/
+.ttt {
+  margin-top: 0.5rem;
+  width: calc(100% - 0.2rem);
+  padding: 0.1rem;
+  height: auto;
+}
+
+.ttt ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.ttt ul li {
+  width: 50%;
+  height: auto;
+  display: inline-flex;
+  justify-content: space-around;
+  padding-bottom: 0.1rem;
+}
+
+.ttt ul li img {
+  width: 95%;
+  height: 1.5rem;
+  border: 0.05rem solid #fff;
+  box-sizing: border-box;
+}
