@@ -14,7 +14,8 @@
 
         if (!doc.addEventListener) return;
         win.addEventListener(resizeEvt, recalc, false);
-        doc.addEventListener('DOMContentLoaded', recalc, false);
+//         doc.addEventListener('DOMContentLoaded', recalc, false);
+        recalc();
     })(document, window);
 
 
