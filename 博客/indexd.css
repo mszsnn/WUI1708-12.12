@@ -26,8 +26,9 @@ header {
 
 .toubu {
   font-size: 15px;
-  color: #333333;
+  color: #fff;
   margin: 0 4rem;
+  font-weight: bold;
 }
 
 .aa {

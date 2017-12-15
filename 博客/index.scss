@@ -16,14 +16,45 @@ header{
   line-height: 0.5rem;
   z-index:999;
 }
+.shou{
+  position: absolute;
+  top:0;
+  bottom:0;
+  right: 0.1rem;
+  margin: 0 auto;
+  z-index: 1000;
+  a{
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url("img/feed_ic_search_normal.png") no-repeat 50%;
+    background-size: 0.3rem;
+  }
+}
+.tubiao{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0.1rem;
+  margin: 0 auto;
+  z-index: 1000;
+  a{
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url("img/feed_ic_message_normal.png") no-repeat 50%;
+    background-size: 0.3rem;
+  }
+}
 .tou{
   display: flex;
   justify-content: center;
 }
 .toubu{
   font-size: 15px;
-  color: #333333;
+  color: #fff;
   margin: 0 0.5rem;
+  font-weight: bold;
 }
 .aa{
   color:#7a45e5;
