@@ -95,6 +95,7 @@ header{
 	width: 100%;
 	height: 0.4rem;
 	background: #F5F4FA;
+	line-height: 0.4rem;
 }
 #scroller li{
 	float: left;
