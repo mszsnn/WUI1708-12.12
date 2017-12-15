@@ -33,6 +33,7 @@ h3{
   font-weight:normal;
 }
 #wrapper{
+  background: #f5f5f5;
   position: fixed;
   top: 0.5rem;
   left: 0;
@@ -41,9 +42,23 @@ h3{
   height: 0.4rem;
   //margin-top: 0.5rem;
   border-bottom: 1px solid #999;
+  .dengji{
+    float: left;
+    padding-left: 0.15rem;
+    line-height: 0.4rem;
+    text-decoration:underline;
+  }
+  .fhh{
+    width: 0.4rem;
+    height: 0.4rem;
+    float: right;
+    margin-top: 0.07rem;
+    background: url("img/返回 (3).png") no-repeat;
+    -webkit-background-size: 0.25rem 0.25rem;
+    background-size: 0.25rem 0.25rem;
+  }
 }
 #wrapper > ul{
-  background: #f5f5f5;
   width:100%;
   height: 100%;
 }
@@ -122,6 +137,7 @@ footer{
   line-height: 0.28rem;
   color: #000;
   text-decoration: none;
+  box-shadow: 0 0.3rem 0.3rem rgba(255,255,255,0.5) ;
   .left{
     width: 60%;
     //height: 100%;
@@ -151,19 +167,36 @@ footer{
 //===============================================================
 .xianqing-box{
   width:calc(100% - 0.2rem);
-  margin: 1rem 0.1rem;
-  h4{
-    font-size: 0.18rem;
-    text-align: center;
-    padding: 0.1rem 0;
+  margin: 1rem 0.1rem 0.1rem 0.1rem;
+  .xianqing-kkk{
+    background: rgba(0,0,0,0.2);
+    padding: 0.1rem 0.05rem 0.5rem 0.05rem;
+    border-radius: 0.05rem;
+    box-shadow: 0 0.3rem 0.3rem rgba(255,255,255,0.4);
+
+    h4{
+      font-size: 0.18rem;
+      text-align: center;
+      padding: 0.1rem 0;
+    }
+    p{
+      font-size: 0.16rem;
+      text-indent: 2em;
+      line-height: 0.26rem;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      padding: 0.05rem 0;
+    }
   }
-  p{
-    font-size: 0.16rem;
-    text-indent: 2em;
-    line-height: 0.26rem;
-    text-align: justify;
-    text-justify: inter-ideograph;
-    padding: 0.05rem 0;
+  .wz-rq{
+    width:100%;
+    font-size: 0.14rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01rem solid #c7ddef;
+    padding:0.05rem 0 0 0;
+    color: #761c19;
+    margin-bottom: 0.1rem;
   }
 }
 //=============================================================

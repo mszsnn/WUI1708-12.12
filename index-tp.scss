@@ -10,7 +10,7 @@ a{
 }
 body,html{
   width:100%;
-  height: 100%;
+  height: 90%;
   background: url("img/bg.jpg");
 }
 header{
@@ -46,9 +46,10 @@ h3{
       height: calc(100% - 0.2rem);
       //background: #BFE7E9;
       margin: 0.1rem;
-      border: 0.02rem solid #fff;
-      box-sizing: border-box;
-
+      //box-sizing: border-box;
+      border-radius: 0.1rem;
+      background: rgba(0,0,0,0.3);
+      box-shadow: 0 0.3rem 0.3rem rgba(255, 255, 255, 0.5);
     }
   }
 }
@@ -56,8 +57,9 @@ h3{
   width:100%;
   height: 100%;
   img{
-    width:100%;
-    height: 50%;
+    width:94.5%;
+    height: 40%;
+    padding:3.5% 2.5%;
   }
   div{
     padding: 0.1rem;
@@ -72,14 +74,31 @@ h3{
       text-justify: inter-ideograph;
       line-height: 0.26rem;
       padding: 0.05rem 0;
+      color: #d9f3ff;
     }
-    i{
-      float: right;
-      padding-right: 0.3rem;
-      font-size: 0.14rem;
-      line-height: 0.26rem;
 
-    }
+  }
+}
+.wz-rq{
+  width:100%;
+  font-size: 0.14rem;
+  display: flex;
+  justify-content: space-around;
+  //border-bottom: 0.01rem solid #c7ddef;
+  color: #761c19;
+  margin-top: 0.15rem;
+  i{
+    font-size: 0.14rem;
+    line-height: 0.16rem;
+    color: #333;
+    text-decoration: underline;
+  }
+  span{
+    font-size: 0.14rem;
+    color:goldenrod;
+    line-height: 0.16rem;
+    text-decoration: underline;
+
   }
 }
 //=======================================================
