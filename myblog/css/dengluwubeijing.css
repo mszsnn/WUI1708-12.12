@@ -1,0 +1,227 @@
+@import url("base.css");
+
+
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+.benijing{
+	width: 100%;
+	height: 100%;
+	background: #f2f1f6;
+}
+.shangbian{
+	width: 100%;
+	height: 0.33rem;
+	background: #f75b5c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 0.14rem;
+	color: #FFFDEF;
+	line-height: 0.33rem;
+	text-align: center;
+}
+.benijing .cuo{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/*background: green;*/
+	font-weight: bold;
+	color: #8b8b8d;
+	margin-left: 0.13rem;
+	margin-top: 0.33rem;
+}
+.touxiang{
+	display: block;
+	width: 0.85rem;
+	height: 0.85rem;
+	/*background: red;*/
+	border-radius: 50%;
+	position: absolute;
+	top: 12.5%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.touxiang img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	border-radius: 50%;
+}
+/*           */
+.shurrukuang{
+	width: 100%;
+	height: 1rem;
+	/*background: green;*/
+	margin-top: 1.77rem;
+	margin-left: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.shurrukuang .renwu{
+	display: block;
+	width: 15.3%;
+	height: 0.49rem;
+	background: #FFF;
+	border-top: 0.02rem solid #DDDDDD;
+	border-bottom: 0.01rem solid #DDDDDD;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.49rem;
+	color: #c6c6c6;
+}
+.renwu1{
+	display: block;
+	width: 84.7%;
+	height: 0.49rem;
+	/*background: red;*/
+	border: none;
+	border-top: 0.02rem solid #DDDDDD;
+	border-bottom: 0.01rem solid #DDDDDD;
+	font-size: 0.3rem;
+	
+}
+/*             */
+/*            */
+.shurrukuang1{
+	width: 100%;
+	height: 0.51rem;
+	/*background: green;*/
+	margin-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.shurrukuang1 .renwu2{
+	display: block;
+	width: 15.3%;
+	height: 0.51rem;
+	background: #FFF;
+	border-top: 0.01rem solid #DDDDDD;
+	border-bottom: 0.02rem solid #DDDDDD;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.51rem;
+	color: #c6c6c6;
+}
+.renwu3{
+	display: block;
+	width: 74.7%;
+	height: 0.51rem;
+	/*background: red;*/
+	border: none;
+	border-top: 0.01rem solid #DDDDDD;
+	border-bottom: 0.02rem solid #DDDDDD;
+	font-size: 0.3rem;
+	
+}
+.shurrukuang1 .renwu4{
+	display: block;
+	width: 10%;
+	height: 0.51rem;
+	background: #FFF;
+	border: none;
+	border-top: 0.01rem solid #DDDDDD;
+	border-bottom: 0.02rem solid #DDDDDD;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.49rem;
+	color: #c6c6c6;
+	
+}
+/*      */
+/*      */
+.youwanglemima{
+	display: block;
+	width: 100%;
+	height: 0.14rem;
+	font-size: 0.12rem;
+	
+	/*background: green;*/
+	line-height: 0.14rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.youwanglemima a{
+	display: block ;
+	color: #c6c6c6;
+}
+/*      */
+.denglujiemian{
+	
+	width: 100%;
+	height: 1rem;
+	/*background: green;*/
+	margin-top: 0.36rem;
+	padding-left: 0.11rem;
+	padding-right: 0.11rem;
+}
+.dljm1{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	background: #41b0f7;
+	border-radius: 0.1rem;
+	font-size: 0.16rem;
+	color: #FFFDEF;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.dljm2{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/*background: #f2f1f6;*/
+	border-radius: 0.1rem;
+	font-size: 0.16rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.dljm2:hover{
+	background: #41b0f7;
+	color: #FFFDEF;
+}
+/*    */
+.xinlang{
+	
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/*background: red;*/
+	background: #f2f1f6;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 0.16rem;
+	color: #606062;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.weixin{
+	
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/*background: red;*/
+	font-size: 0.16rem;
+	color: #606062;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.qq{
+	
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/*background: red;*/
+	font-size: 0.16rem;
+	color: #606062;
+	text-align: center;
+	line-height: 0.5rem;
+}

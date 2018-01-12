@@ -1,0 +1,82 @@
+@import url("base.css");
+
+
+
+.sousuo{
+	width: 100%;
+	height: 0.51rem;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-between;
+	
+	align-items: center;
+	padding: 0 0.13rem;
+}
+.sousuo div{
+	width: 2.75rem;
+	display: flex;
+}
+.sousuo a{
+	display: block;
+	width: 0.65rem;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	color: #000;
+	background: #f5f4fa;
+	border: 0.01rem solid #f4f3f7;
+	border-radius: 0.06rem 0 0 0.06rem;
+}
+.sousuo input{
+	display: block;
+	width: 2.1rem;
+	height: 0.35rem;
+	border: none;
+	border-radius: 0 0.06rem 0.06rem 0;
+	background: #f5f4fa;
+	border: 0.01rem solid #f4f3f7;
+}
+.sousuo .quxiaoba{
+	display: block;
+	width: 0.32rem;
+	height: 0.35rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	line-height: 0.35rem;
+	color: #fba7a8;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-radius: 0;
+}
+.fenlei{
+	width: 100%;
+	height: auto;
+	background: 3fff;
+	border-top: 0.01rem solid #fafafa;
+	margin-top: 0.07rem;
+	
+}
+.fenlei a{
+	display: block;
+	width: 100%;
+	height: 0.57rem;
+	/*background: green;*/
+	font-size: 0.16rem;
+	display: flex;
+	line-height: 0.65rem;
+	color: #8c8c8c;
+	
+}
+.fenlei a div{
+	display: block;
+	width: 0.45rem;
+	height: 0.45rem;
+	padding-left: 0.13rem;
+	padding-top: 0.12rem;
+	margin-right: 0.2rem;
+}
+.fenlei a div img{
+	display: block;
+	width: 0.45rem;
+	height: 0.45rem;
+	
+}

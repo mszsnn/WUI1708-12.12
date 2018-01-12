@@ -1,0 +1,118 @@
+/*
+* @Author: 陶慧勇
+* @Date:   2017-08-03 20:12:18
+* @Last Modified by:   陶慧勇
+* @Last Modified time: 2017-08-04 10:41:15
+*/
+
+@import url('base.css');
+/* 主页搜索开始 */
+.sousuoxinwen{
+	width: 100%;
+	height: 0.5rem;
+	/* background: green; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #ccc;
+	padding: 0 0.12rem 0 0.05rem;
+}
+.sousuoxinwen-l{
+	width: 2.25rem;
+	height: 0.51rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sousuoxinwen .sousuo{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	/* background: green; */
+	font-size: 0.32rem;
+	color: #c2c2c2;
+
+}
+.ganggang{
+	width: 0.02rem;
+	height: 0.15rem;
+	background: #4b9be4;
+}
+.sousuoxinwen input{
+	width: 1.8rem;
+	border: none;
+	height: 0.32rem;
+	font-size: 0.16rem;
+
+}
+.sousuoxinwen .quxiao{
+	display: block;
+	width: 0.32rem;
+	height: 0.16rem;
+	color: #f45954;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+}
+/* 主页搜索结束 */
+/* 下开始 */
+.langya{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	color: #c2c2c2;
+	display: flex;
+	align-items: center;
+	padding: 0 0.12rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.langya .sousuo{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: green; */
+	font-size: 0.16rem;
+	color: #c2c2c2;
+	
+}
+.langya input{
+	background: #fff;
+	width: 1.8rem;
+	border: none;
+	height: 0.32rem;
+	font-size: 0.16rem;
+	color: #c2c2c2;
+}
+/* 下结束 */
+/* 下1开始 */
+.qingchu{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	color: #c2c2c2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 0.01rem solid #ccc;
+}
+.qingchu .sousuo{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: green; */
+	font-size: 0.16rem;
+	color: #c2c2c2;
+	
+}
+.qingchu input{
+	background: #fff;
+	width: 0.8rem;
+	border: none;
+	height: 0.32rem;
+	font-size: 0.16rem;
+	color: #c2c2c2;
+}
+
+/* 下1结束 */
