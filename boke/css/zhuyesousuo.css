@@ -1,0 +1,133 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-05 08:50:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-05 10:12:28
+*/
+@import url('base.css');
+.sousuobox{
+	width: 100%;
+	height: 1.46rem;
+	/* background: red; */
+}
+.sousuobox li:first-child{
+    width: 100%;
+    height: 0.49rem;
+    /* background: yellow; */
+    border-bottom: 0.01rem solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+.sousuobox li:nth-child(2){
+    width: 100%;
+    height: 0.48rem;
+    /* background: pink; */
+    border-bottom: 0.01rem solid #efefef;
+    overflow: hidden;
+}
+.sousuobox li:nth-child(3){
+    width: 100%;
+    height: 0.49rem;
+    /* background: green; */
+    border-bottom: 0.01rem solid #efefef;
+    overflow: hidden;
+}
+.leftbox{
+	width: 1.9rem;
+	height: 100%;
+	/* background: red; */
+	display: flex;
+}
+.rightbox{
+	width: 0.41rem;
+	height: 100%;
+	/* background: red; */
+	font-size: 0.14rem;
+	color: #f86555;
+	line-height: 0.49rem;
+}
+.sousuologo{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: yellow; */
+	margin-top: 0.16rem;
+	margin-left: 0.15rem;
+}
+.sousuologo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.leftbox input{
+	width: 1.54rem;
+	height: 0.16rem;
+	margin-top: 0.16rem;
+	border: none;
+}
+.leftbox input:focus{
+	outline: none;
+}
+.shubox{
+	width: 0.02rem;
+	height: 0.16rem;
+	background: #4c9ce5;
+	margin-top: 0.16rem; 
+}
+.zhongbiaologo{
+	width: 0.15rem;
+	height: 0.15rem;
+	/* background: red; */
+	/* margin-top: 0.16rem; */
+	margin-left: 0.15rem;
+}
+.zhongbiaologo img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.langya{
+	width: 1.33rem;
+	height: 0.16rem;
+	/* background: yellow; */
+	font-size: 0.12rem;
+	color: #c2c2c2;
+	margin-left: 0.09rem;
+	line-height: 0.16rem;
+	/* margin-top: 0.16rem; */
+}
+.cnterbox{
+	width: 1.57rem;
+	height: 0.16rem;
+	/* background: green; */
+	margin-top: 0.16rem;
+	margin-left: 0.15rem;
+	display: flex;
+    justify-content: space-between;
+}
+.footbox{
+    width: 0.99rem;
+    height: 0.13rem;
+    /* background: green; */
+    /* margin-top: 0.18rem; */
+    margin:0.18rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lajilogo{
+	width: 0.12rem;
+	height: 0.13rem;
+	/* background: yellow; */
+}
+.lajilogo img{
+	display: block;
+    width: 0.12rem;
+	height: 0.13rem;
+}
+.qingkong{
+	width: 0.80rem;
+	height: 100%;
+	/* background: pink; */
+	font-size: 0.12rem;
+	color: #b1b1b1;
+}

@@ -1,0 +1,244 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 22:14:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 22:47:29
+*/
+@import url('base.css');
+.shouye{
+	width: 100%;
+	height: 6rem;
+	background: yellow;
+	position: relative;
+}
+.shouye img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bink{
+	width: 100%;
+	height: 0.35rem;
+	/* background: pink; */
+	position: absolute;
+	top: 4.1rem;
+	left: 0;
+	font-size: 0.35rem;
+	color: #fefffd;
+	text-align: center;
+}
+.bink span{
+	color: #cc2f7c;
+}
+.box2{
+	width: 100%;
+	height: 0.21rem;
+	/* background: red; */
+	position: absolute;
+	top: 4.45rem;
+	left: 0;
+	font-size: 0.11rem;
+	color: #fcfefd;
+	text-align: center;
+	line-height: 0.23rem;
+}
+.zhucedenglu{
+	width: 100%;
+	height: 0.65rem;
+	/* background: green; */
+	position: absolute;
+	top: 5.55rem;
+	left: 0;
+}
+/* .zhucedenglu li:nth-child(1){
+    width: 100%;
+    height: 50%;
+    background: rgba(150, 22, 79, 0.9);
+} */
+.zhucedenglu li:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background: #070d1b;
+}
+/* .zhucedenglu li:nth-child(1) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #84073f;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+} */
+.zhucedenglu li:nth-child(1) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #84073f;
+   /*  opacity: 0.5; */
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+}
+.mengban{
+	width: 100%;
+	height: 5.55rem;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.querenbox{
+	width: 2.94rem;
+	height: 1.25rem;
+	background: #f6f7f9;
+	position: absolute;
+	top: 2.46rem;
+	left: 0.29rem;
+	border-radius: 0.1rem;
+}
+.right-or-no{
+	width: 100%;
+	height: 60%;
+	border-bottom: 0.01rem solid #d6dadd;
+}
+.title-yes{
+	font-size: 0.14rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.bangdingyoux{
+	font-size: 0.12rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.1rem;
+}
+.bottom-box{
+	width: 100%;
+	height: 40%;
+	/* background: red; */
+	display: flex;
+}
+.no{
+	display: block;
+	width: 50%;
+	height: 100%;
+	border-right: 0.01rem solid #e0e1e5;
+	color: #3799f2;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.yes{
+	display: block;
+	width: 50%;
+	height: 100%;
+	/* border-right: 0.01rem solid #e0e1e5; */
+	color: #3799f2;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.bacha{
+	display: block;
+	width: 0.15rem;
+	height: 0.15rem;
+	/* background: red; */
+	position: absolute;
+	top: .33rem;
+	left: .18rem;
+	z-index: 2;
+}
+.bacha img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shuru{
+	width: 2.83rem;
+	height: 1.2rem;
+	/* background: yellow; */
+	position: absolute;
+	top: 0.5rem;
+	left: 0.34rem;
+}
+.shuru li{
+    width: 100%;
+    height: 0.37rem;
+    margin-top: 0.22rem;
+  /*   background: pink; */
+    position: relative;
+}
+.shuru li input{
+	width: 100%;
+	height: 0.24rem;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0)
+}
+.shuru li:nth-child(1) input{
+    border: none;
+    border-bottom: 0.01rem solid #f2f0f1;
+}
+.shuru li:nth-child(1) input:focus{
+    outline: none;
+}
+.shuru li:nth-child(2) input{
+    border: none;
+    border-bottom: 0.01rem solid #474654;
+}
+.shuru li:nth-child(2) input:focus{
+    outline: none;
+}
+.shuru li:nth-child(3) input{
+    border: none;
+    border-bottom: 0.01rem solid #474654;
+}
+.shuru li:nth-child(3) input:focus{
+    outline: none;
+}
+.youxiang{
+	font-size: 0.14rem;
+	color: #fafdf2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.forget-passward{
+	display: block;
+	font-size: .1rem;
+	color: #e4e9e3;
+	position: absolute;
+	top: 2.39rem;
+	right: 0.31rem;
+	/* position: relative; */
+	/* overflow: hidden; */
+}
+.forget-passward u{
+	border-bottom: 0.02rem solid #f6f4f5;
+}
+.forget-passward input{
+	position: absolute;
+    bottom: 0;
+}
+.cuowubox{
+	width: 100%;
+	height: 0.32rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #9b2438;
+	font-size: 0.12rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.cuowubox u{
+	border-bottom: 0.01rem solid #fff;
+}

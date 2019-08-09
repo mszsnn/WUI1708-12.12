@@ -1,0 +1,213 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-07 00:11:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 10:40:48
+*/
+@import url('base.css');
+.shouye{
+	width: 100%;
+	height: 6.1rem;
+	background: yellow;
+	position: relative;
+}
+.shouye img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bink{
+	width: 100%;
+	height: 0.35rem;
+	/* background: pink; */
+	position: absolute;
+	top: 4.1rem;
+	left: 0;
+	font-size: 0.35rem;
+	color: #fefffd;
+	text-align: center;
+}
+.bink span{
+	color: #cc2f7c;
+}
+.box2{
+	width: 100%;
+	height: 0.21rem;
+	/* background: red; */
+	position: absolute;
+	top: 4.45rem;
+	left: 0;
+	font-size: 0.11rem;
+	color: #fcfefd;
+	text-align: center;
+	line-height: 0.23rem;
+}
+.zhucedenglu{
+	width: 100%;
+	height: 0.65rem;
+	/* background: green; */
+	position: absolute;
+	top: 5.5rem;
+	left: 0;
+}
+/* .zhucedenglu li:nth-child(1){
+    width: 100%;
+    height: 50%;
+    background: rgba(150, 22, 79, 0.9);
+} */
+ .zhucedenglu li:nth-child(1) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #a40347;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+} */
+
+.zhucedenglu li:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background: #a40347;
+}
+.zhucedenglu li:nth-child(1) a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background: #a40347;
+   /*  opacity: 0.5; */
+    color: #fff;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.65rem;
+}
+.mengban{
+	width: 100%;
+	height: 4.1rem;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.xiangjiyuan{
+	width: 0.84rem;
+	height: 0.84rem;
+	border: 0.01rem solid #827f86;
+	border-radius: 50%;
+	position: absolute;
+	top: 1.08rem;
+	left: 1.32rem;
+	z-index: 10;
+}
+.bacha{
+	display: block;
+	width: 0.15rem;
+	height: 0.15rem;
+	/* background: red; */
+	position: absolute;
+	top: .33rem;
+	left: .18rem;
+}
+.xiangjiyuan img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+/* .bacha img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+.icon-xiangji{
+	text-align: center;
+	line-height: 0.77rem;
+	font-size:40px;
+	color: #f6f6f6;
+}
+.icon-arrow-right-copy{
+	font-size:0.16rem;
+	color: #848a96;
+}
+.xingbiebox{
+	width: 1.23rem;
+	height: 0.15rem;
+	/* background: red; */
+	position: absolute;
+	top: 2.04rem;
+	left: 1.17rem;
+	font-size: 0.15rem;
+	color: #fff;
+	line-height: 0.14rem;
+	display: flex;
+	white-space: nowrap;
+	z-index: 10;
+}
+.shuru{
+	width: 2.83rem;
+	height: 1.2rem;
+	/* background: yellow; */
+	position: absolute;
+	top: 0.5rem;
+	left: 0.34rem;
+}
+.shuru li{
+    width: 100%;
+    height: 0.37rem;
+    margin-top: 0.22rem;
+  /*   background: pink; */
+    position: relative;
+}
+.shuru li input{
+	width: 100%;
+	height: 0.24rem;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0)
+}
+.shuru li:nth-child(1) input{
+    border: none;
+    border-bottom: 0.01rem solid #f2f0f1;
+}
+.shuru li:nth-child(1) input:focus{
+    outline: none;
+}
+.shuru li:nth-child(2) input{
+    border: none;
+    border-bottom: 0.01rem solid #474654;
+}
+.shuru li:nth-child(2) input:focus{
+    outline: none;
+}
+.youxiang{
+	font-size: 0.14rem;
+	color: #fafdf2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.forget-passward{
+	display: block;
+	font-size: .1rem;
+	color: #e4e9e3;
+	position: absolute;
+	top: 1.87rem;
+	right: 0.31rem;
+}
+.header{
+	width: 100%;
+	height: 0.33rem;
+	background: #b7293f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0.1rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.33rem;
+}

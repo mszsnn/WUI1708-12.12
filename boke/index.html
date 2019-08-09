@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <meta name="viewport" content="width=device-width">
+        <script src="js/rem.js"></script>
+		<script src="js/swiper.min.js"></script>
+    </head>
+	<style>
+		.swiper-container {
+			width: 100%;
+			height: 176px;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		img{
+			width:100%;
+			height: 100%;
+			display: block;
+		}
+		.fixedBox{
+			position: fixed;
+			top: 45.7px;
+			left: 0px;
+			z-index: 1000;
+
+		}
+	</style>
+    <body>
+    <header>
+    	<div class="left-box">
+    		<a href=""><img src="img/header1.png" alt="" class="headerleft"></a>
+    	</div>
+    	<div class="center-box">
+    		<a href="" class="centerbox1">博客</a>
+    		<a href="index1.html" class="centerbox2">图片</a>
+    	</div>
+    	<div class="right-box">
+    		<a href="zhuyesousuo.html"><img src="img/header2.png" alt="" class="headerleft"></a>
+    	</div>
+    </header>
+    <div class="tianjia"></div>
+    <!-- 导航开始	 -->
+	<nav style="width: 100%;height: 38.31px"></nav>
+    <nav class="fixedBox">
+    	<ul class="nav">
+    		<li><a href="">HTML</a></li>
+    		<li><a href="">JS</a></li>
+    		<li><a href="">PHP</a></li>
+    		<li><a href="">VUE</a></li>
+    		<li><a href="">REACT</a></li>
+    	</ul>
+    	<!--<a href="zhuyefenlei.html" class="nav-rightbox">-->
+    	    <!--<img src="img/jiantou.png" alt="">-->
+        <!--</a>-->
+    </nav>
+    <!-- 导航结束 -->
+    <!-- banner开始 -->
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="img/banners4.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="img/banners5.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="img/banners2.jpg" alt=""></div>
+			<!--<div class="swiper-slide"><img src="img/banners7.jpg" alt=""></div>-->
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<!--<div class="swiper-button-next"></div>-->
+		<!--<div class="swiper-button-prev"></div>-->
+	</div>
+    <!-- banner结束 -->
+    <!-- section开始 -->
+    <section>
+    	<ul class="section">
+    		<li>
+    		    <a href="xinwenzhengwen.html">
+    		      <div class="libox0">
+    		    	<div class="libox1">
+    		    		<span>中国青年晚报&nbsp;28分钟前</span>
+    		    		<span>前端开发|正适合准备补招和春招<br>的你!</span>
+                        <span>阅读:2354次·评论12.5万</span>
+    		    	</div>
+    		    	<div class="liphoto1">
+    		    		<img src="img/section2.png" alt="">
+    		    	</div>
+    		      </div>
+    		    </a>
+    		</li>
+    		<li>
+    		    <a href="">
+    		      <div class="libox0">
+    		    	<div class="libox1">
+    		    		<span>中国青年晚报&nbsp;28分钟前</span>
+    		    		<span>入门node.js 你必须知道的那些<br>事</span>
+                        <span>阅读:2354次·评论12.5万</span>
+    		    	</div>
+    		    	<div class="liphoto1">
+    		    		<img src="img/section1.png" alt="">
+    		    	</div>
+    		      </div>
+    		    </a>
+    		</li>
+    		<li>
+    		    <a href="">
+    		      <div class="libox0">
+    		    	<div class="libox1">
+    		    		<span>中国青年晚报&nbsp;28分钟前</span>
+    		    		<span>基于PHP|kindeditor 加入七牛<br>云上传的实例讲解</span>
+                        <span>阅读:2354次·评论12.5万</span>
+    		    	</div>
+    		    	<div class="liphoto1">
+    		    		<img src="img/section2.png" alt="">
+    		    	</div>
+    		      </div>
+    		    </a>
+    		</li>
+    		<li>
+    		    <a href="">
+    		      <div class="libox0">
+    		    	<div class="libox1">
+    		    		<span>中国青年晚报&nbsp;28分钟前</span>
+    		    		<span>可能是目前最完整的前端框架 Vue.js <br>全面介绍</span>
+                        <span>阅读:2354次·评论12.5万</span>
+    		    	</div>
+    		    	<div class="liphoto1">
+    		    		<img src="img/section3.png" alt="">
+    		    	</div>
+    		      </div>
+    		    </a>
+    		</li>
+    	</ul>
+    </section>
+    <!-- section结束 -->
+    </body>
+</html>
+<script>
+    <!-- Initialize Swiper -->
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>

@@ -1,0 +1,131 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 09:06:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 10:00:27
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.5rem;
+	background: #f75b5c;
+	display: flex;
+	justify-content: space-between;
+}
+body{
+	height: 6rem;
+}
+.back{
+	/* display: block; */
+	width: .56rem;
+	height: 100%;
+	/* background: blue; */
+}
+.rigister{
+	display: block;
+	width: 0.38rem;
+	height: 100%;
+	/* background: green; */
+	font-size: 0.17rem;
+	color: #f7fffa;
+	line-height: 0.5rem;
+	text-align: center;
+	margin-left: 0.3rem;
+}
+.next-step{
+	display: block;
+	width: 0.79rem;
+	height: 100%;
+	/* background: yellow; */
+	font-size: 0.12rem;
+	color: #f7fffa;
+	line-height: 0.5rem;
+	margin-right: 0.11rem;
+}
+.back-box{
+	display: block;
+	width: 0.42rem;
+	height: 0.14rem;
+	/* background: yellow; */
+	margin-top: 0.19rem;
+	margin-left:0.13rem;
+	display: flex;
+	justify-content: space-between; 
+}
+.back-logo{
+	width: 0.08rem;
+	height: 0.14rem;
+	/* background: red; */
+	display: block;
+}
+.back-character{
+	width: .27rem;
+	height: 0.14rem;
+	/* background: red; */
+	font-size: 0.12rem;
+	color: #fbfffd;
+}
+.back-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+section{
+	width: 100%;
+	height: 4.37rem;
+	background: #f2f1f6;
+	/* overflow: hidden; */
+	padding-top: 0.37rem;
+}
+.take-phto-box{
+	display: block;
+	width: 0.84rem;
+	height: 0.84rem;
+/* 	background: red; */
+	margin: 0 auto;
+}
+.take-phto-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.man-or-woman{
+	width: 1.26rem;
+	height: 0.15rem;
+	/* background: red; */
+	margin: 0.18rem auto;
+	display: flex;
+}
+.man-or-woman input:nth-of-type(2){
+	margin-left: 0.4rem;
+}
+.man{
+	font-size: 0.14rem;
+	color: #939395;
+	line-height: 0.14rem;
+	/* height: 0.15rem;
+    width: 0.34rem;
+    white-space: nowrap; */
+}
+footer,.footer{
+	width: 100%;
+	height: 1.3rem;
+	/* background: red; */
+}
+.footer li{
+	width: 100%;
+	height: 33.3333%;
+	border-top: 0.02rem solid #efefef;
+}
+.footer li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#505050;
+	font-size: 0.13rem;
+	text-align: center;
+	line-height: 0.39rem;
+}
+.footer li:nth-child(3) a{
+	color: #fe6e77;
+}
